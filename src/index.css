@@ -117,6 +117,10 @@ input[type="checkbox"]:checked::before {
   border-bottom-right-radius: 10px;
 }
 
+.todo-checked {
+  opacity: 0.5;
+}
+
 #root {
   display: flex;
   align-items: flex-start;
